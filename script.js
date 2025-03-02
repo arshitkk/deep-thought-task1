@@ -2,7 +2,7 @@
 import data from "./data.js";
 
 //fetched all the neccesary elemets
-
+console.log(data)
 let cardContainer = document.querySelector(".card-container");
 let taskName = document.querySelector(".task-name");
 let taskTitle = document.querySelector(".task-title");
@@ -48,7 +48,7 @@ journeyBoardBtn.addEventListener("click", () => {
 });
 
 // added data dynamically
-etaskName.textContent = data.title;
+taskName.textContent = data.title;
 taskTitle.textContent = data.tasks[0].task_title;
 taskDescription.textContent = data.tasks[0].task_description;
 
