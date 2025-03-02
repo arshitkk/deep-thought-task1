@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepThought Task</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/6dae39af6c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <img src="assets/logo.svg" alt="deep thought logo">
+        <div class="icons">
+            <i class="icon fa-solid fa-house-chimney circ" style="color: #fafafa;"></i>
+            <i class="icon fa-solid fa-screwdriver-wrench circ" style="color: #ffffff;"></i>
+            <i class="icon fa-solid fa-bell circ" style="color: #ffffff;"></i>
+            <i class="icon fa-solid fa-user circ" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-ellipsis-vertical" style="color: #3683f0;"></i>
+        </div>
+    </nav>
+    <!-- journey-board (left sidebar) -->
+    <div class="journey-board-translate">
+        <div class="black-heading">
+            <p class=>Journey Board</p>
+            <button class="journey-board-btn "><img src="assets/journey-board-arrow.svg" alt="expand-arrow"></button>
+        </div>
+        <div class="badge">
+            <!-- <p>1</p> -->
+        </div>
+        <ul>
+        </ul>
+
+    </div>
+    <div class="main">
+        <!-- Heading Section -->
+        <div class="heading">
+            <h1 class="task-name"></h1>
+            <button class="submit-btn">Submit Task</button>
+        </div>
+        <!-- Task section  -->
+        <div class="task">
+            <h2 class="task-title">
+            </h2>
+            <p class="task-description">
+            </p>
+        </div>
+        <!-- Card container -->
+        <div class="card-container">
+            <!-- Will add this section dynamically -->
+        </div>
+        <!-- Right side  notice board -->
+        <div class="notice-board">
+            <div class="black-heading-notice">
+                <i class="fa-solid fa-xmark" style="color: #ffffff;"></i>
+                <p>Notice</p>
+                <br>
+                <p>Board</p>
+            </div>
+        </div>
+        <!-- blue icons -->
+        <div class="blue-icons">
+            <img src="assets/question-mark.svg" alt=" question-mark">
+            <img src="assets/community.svg" alt="discussion">
+            <img src="assets/calendar.svg" alt="calendar">
+        </div>
+        <script src="script.js" type="module"></script>
+        <script src="data.js" type="module"></script>
+</body>
+
+</html>
